@@ -1,6 +1,6 @@
 package Class;
 
-public class No10_Interface_Toy_Airplane implements Toy{
+public class No10_Interface_Toy_Airplane implements No10_Interface_Toy{
 
 	public No10_Interface_Toy_Airplane() {
 		System.out.println("--- Toy Interface Constructor---1");
