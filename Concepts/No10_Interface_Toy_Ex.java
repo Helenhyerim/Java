@@ -6,11 +6,11 @@ public class No10_Interface_Toy_Ex {
 		// No10_Interface_Toy_Airplane airplane = new No10_Interface_Toy_Airplane();
 		// No10_Interface_Toy_Robot robot = new No10_Interface_Toy_Robot();
 		
-		// ÀÎÅÍÆäÀÌ½º °´Ã¼»ı¼º
-		Toy airplane = new No10_Interface_Toy_Airplane();
-		Toy robot = new No10_Interface_Toy_Robot();
-		// ¹è¿­¿¡ ³ÖÀ» ¼ö ÀÖÀ½, µ¥ÀÌÅÍÅ¸ÀÔÀÌ Toy·Î °°¾Æ¼­ °¡´É
-		Toy toys[] = {airplane, robot};
+		// ì¸í„°í˜ì´ìŠ¤ ê°ì²´ìƒì„±
+		No10_Interface_Toy airplane = new No10_Interface_Toy_Airplane();
+		No10_Interface_Toy robot = new No10_Interface_Toy_Robot();
+		// ë°°ì—´ì— ë„£ì„ ìˆ˜ ìˆìŒ, ë°ì´í„°íƒ€ì…ì´ Toyë¡œ ê°™ì•„ì„œ ê°€ëŠ¥
+		No10_Interface_Toy toys[] = {airplane, robot};
 		
 		for(int i=0; i<toys.length; i++) {
 			toys[i].walk();
