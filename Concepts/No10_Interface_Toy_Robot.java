@@ -1,6 +1,6 @@
 package Class;
 
-public class No10_Interface_Toy_Robot implements Toy{
+public class No10_Interface_Toy_Robot implements No10_Interface_Toy {
 
 	public No10_Interface_Toy_Robot() {
 		System.out.println("--- Toy Interface Constructor---2");
